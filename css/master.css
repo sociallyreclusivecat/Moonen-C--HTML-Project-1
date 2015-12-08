@@ -1,0 +1,151 @@
+/*default css document*/
+
+/*HTML elements*/
+body {
+  font-family: 'Indie Flower', cursive;
+  text-align: center;
+  background-color: black;
+}
+ul {
+  padding: .5em;
+  height: 2.5em;
+}
+table {
+  margin: auto;
+}
+td {
+  border-radius: .4em;
+}
+th {
+  width: 10em;
+  height: 10em;
+  background: grey;
+  margin: 3em;
+  border-radius: .4em;
+}
+table {
+  border-spacing: 1em;
+}
+
+/*IDs*/
+#sitenav {
+  font-family: 'Bree Serif', serif;
+  list-style-type: none;
+  background: #303030;
+  border-radius: .3em;
+  margin: 0;
+}
+#sitenav li {
+  width: 5em;
+  display: inline;
+  font-size: 1.5em;
+}
+#mainpane {
+  background: white;
+  max-width: 40em;
+  min-width: 30em;
+  border-radius: .4em;
+  margin: 1em auto;
+  padding: 1em;
+  padding-left: 2em;
+  padding-right: 2em;
+  font-size: 1.3em;
+}
+#footer {
+  font-family: 'Bree Serif', serif;
+  background: #303030;
+  border-radius: .3em;
+  color: #f9b006;
+  clear: both;
+}
+#leftteamalwayswins {
+  display: block;
+  float: left;
+  margin: 0 3em 0 4em;
+}
+#imgpane {
+  width: 420px;
+  height: 700px;
+  display: block;
+  float: left;
+}
+
+/*Classes*/
+.spacer {
+  margin: 0;
+  padding: 0;
+}
+.bottleseperator {
+  position: relative;
+  top: .4em;
+}
+.storeitem {
+  width: 10em;
+  height: 18em;
+  background: grey;
+  margin: 3em;
+}
+.underline {
+  text-decoration: underline;
+  color: #336600;
+}
+.productimage {
+  display: block;
+  float: left;
+  border-radius: 1em;
+}
+.historypicleft {
+  display: block;
+  float: left;
+}
+.historypicright {
+  display: block;
+  float: right;
+}
+.button {
+    background-color: #f9b006;
+    border: none;
+    color: white;
+    padding: auto;
+    padding-left: 2em;
+    padding-right: 2em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.buy {
+    background-color: white;
+    color: black;
+    border: 2px solid #f9b006;
+    height: 2em;
+    border-radius: .3em;
+}
+
+
+/*Psudo-Classes*/
+.buy:hover {
+  background-color: #f9b006;
+  color: white;
+}
+.buy:active {
+  background-color: #99b006;
+  border: 2px solid #99b006;
+  color: white
+}
+a:link {
+  color: #f9b006;
+  }
+a:visited {
+  color: #f9b006;
+  }
+a:hover {
+  color: #d99000;
+  }
+a:active {
+  color: #99b006;
+  }
